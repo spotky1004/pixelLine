@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+#center {
+  text-align: center;
+}
+#pixelCanvas {
+  margin: 5vh auto;
+  width: 50vh; height: 50vh;
+  background-color: #e3e3e3;
+}
+.pixelCell {
+  display: block; float: left;
+  width: 2vh; height: 2vh;
+  border: 1px solid #aaa;
+  cursor: pointer;
+}
+#resetGen {
+  margin: 0 auto; padding-top: 1vh;
+  width: 10vw; height: 3vh;
+  font-size: 2vh; text-align: center; color: #111; font-weight: bold;
+  border: 3px solid #5c5c5c; border-radius: 3px;
+  background-color: #b0b0b0;
+}
+#resetGen:hover {
+  filter: brightness(1.3);
+}
